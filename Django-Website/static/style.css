@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+.nav-bar{
+    position:sticky;
+    top:0;
+    z-index:10;
+   
+}
+.navbar{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    padding: 0; 
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color:#fff;
+    font-weight: 300;
+    float: right;
+    text-align: left;
+}
+.fa-solid{
+    color:#fff ;
+    font-size: 30px;
+}
+.navbar-toggler{
+    outline:none;
+}
+
+
+/*-----Banner section------*/
+#Banner{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color:#fff;
+    padding-top: 5%;
+
+}
+.yash{
+    font-size: 40px;
+}
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
+#Banner a{
+    color:#fff;
+    text-decoration: none;
+}
+.image-fluid{
+    width: 80%;
+}
+.image-two{
+    width: 100%;
+}
+
+/*-------SERVICES SECTION------*/
+
+#services
+{
+    padding:80px 0;
+}
+.service-img{
+    width: 190px;
+    margin-bottom: 50px;
+    padding-left: 2%;
+}
+.text{
+    font-style: italic;
+    text-align: justify;
+    margin: 10px;
+
+}
+.sent{
+    padding: 25px;
+}
+
+
+/*  ABOUT US*/
+#about-us{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.about-title{
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+#about-us ul li{
+    margin:10px 0;
+}
+.image-float{
+    margin-top: 70px;
+}
+
+/*----------TESTIMONIALS---------------*/
+#testimonials{
+    margin-top: 60px;
+}
+.row{
+    padding-top: 100px;
+}
+.test{
+    
+    border-left:4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.test img{
+    height:60px;
+    width:60px;
+    border-radius:60%;
+    margin:0 10px;
+}
+
+/*------------SOCIAL MEDIA--------------------*/
+#social{
+    padding: 60px;
+    background: #f8f9fa;
+}
+.photo img{
+    padding-top: 60px;
+    width:60px;
+    transition:0.5;
+}
+.photo a:hover img{
+    transform:translateY(-20px);
+}
+ 
+/*---FOOTER SECTION------*/
+#footer{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+.img{
+    width: 100%;
+}
+.footer-box{
+    color:#fff;
+}
+.foot p{
+    color: #fff;
+}
+.jaxx{
+    width:40px;
+}
+.jax{
+    width: 25px;
+    padding-left: 10px;
+}
+.chk{
+    padding-left: 5px;
+}
+
+
+
+
+
+
+
